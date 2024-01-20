@@ -11,7 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <script>
+    <!--  Font Awesome link-->
+    <script src="https://kit.fontawesome.com/3270e82b26.js" crossorigin="anonymous"></script>
+
+<script>
         tailwind.config = {
           theme: {
             extend: {
@@ -32,10 +35,45 @@
 
 </head>
 <body class="manrope">
-    <header>
-        
+    <header class="container mx-auto">
+        <div class="hero mt-5">
+            <div class="hero-content flex-col lg:flex-row gap-3">
+              <div>
+                <h1 class="text-7xl font-extrabold">
+                    It's good <br>
+                    tea time at The<br>
+                    Tea House</h1>
+                <p class="py-6 w-[530px] text-lg font-semibold">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn btn-primary">Explore More <img src="images/arrow.png" alt=""></button>
+              </div>
+              <div>
+                <img src="images/banner.png" class="max-w-sm " />
+                <div class=" -mt-16 flex items-center gap-3 bg-white rounded-lg drop-shadow-xl w-60 p-5">
+                    <i class="fa-solid fa-star text-4xl text-[#FFC850]"></i>
+                    <div>
+                        <h3 class="text-3xl font-extrabold">5.00</h3>
+                        <p class="text-[#777777] font-medium" >Trust Pilot Ratings</p>
+                    </div>
+                </div>
+              </div>
+                    
+            </div>
+          </div>
     </header>
-    <main>
+    <main class="container mx-auto">
+            <!-- Featured product section -->
+            <section class="my-14">
+                <div>
+                    <h3 class="text-5xl font-extrabold text-center">Our Featured Products</h3>
+                    <p class="font-medium mx-auto mt-5 lg:max-w-3xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                </div>
+                <!-- Featured tea card container -->
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 ">   
+                        <!-- card-1 -->
+                        
+                </div>
+            </section>
 
     </main>
     <footer>
